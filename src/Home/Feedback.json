@@ -1,0 +1,103 @@
+{
+  "public": [
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Appreciation",
+      "feedback": "The police department consistently demonstrates dedication and professionalism, ensuring community safety.",
+      "month": "March",
+      "id": "1"
+    },
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Complaint",
+      "feedback": "Recent incidents raise concerns about the department's response times and accountability.",
+      "month": "March",
+      "id": "2"
+    },
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Suggestion",
+      "feedback": "Improving community engagement and emergency response procedures could enhance overall effectiveness.",
+      "month": "April",
+      "id": "3"
+    },
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Complaint",
+      "feedback": "A recent emergency situation highlighted deficiencies in response time, urging the need for better coordination.",
+      "month": "April",
+      "id": "4"
+    },
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Appreciation",
+      "feedback": "Gratitude to the officers for their swift and commendable response to a neighborhood incident.",
+      "month": "April",
+      "id": "5"
+    },
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Suggestion",
+      "feedback": "Enhanced community outreach efforts and proactive engagement initiatives can strengthen police-resident relations.",
+      "month": "May",
+      "id": "6"
+    },
+    {
+      "feedbackType": "Feedback",
+      "subFeedbackType": "Suggestion",
+      "feedback": "Addressing mental health crises requires collaboration with professionals and specialized intervention training for officers.",
+      "month": "May",
+      "id": "7"
+    }
+  ],
+  "ratings": [
+    {
+      "feedbackType": "Rating",
+      "rating": 5,
+      "month": "March",
+      "id": "1"
+    },
+    {
+      "feedbackType": "Rating",
+      "rating": 4,
+      "month": "March",
+      "id": "2"
+    },
+    {
+      "feedbackType": "Rating",
+      "rating": 1,
+      "month": "March",
+      "id": "3"
+    },
+    {
+      "feedbackType": "Rating",
+      "rating": 2,
+      "month": "April",
+      "id": "4"
+    },
+    {
+      "feedbackType": "Rating",
+      "rating": 5,
+      "month": "April",
+      "id": "5"
+    },
+    {
+      "feedbackType": "Rating",
+      "rating": 2,
+      "month": "May",
+      "id": "6"
+    },
+    {
+      "feedbackType": "Rating",
+      "rating": 3,
+      "month": "May",
+      "id": "7"
+    },
+    {
+      "id": "5412",
+      "feedbackType": "Rating",
+      "rating": 3,
+      "month": "May"
+    }
+  ]
+}

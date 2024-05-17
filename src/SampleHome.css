@@ -1,0 +1,203 @@
+/* Reset some default styles */
+body, html, #root, .give {
+  height: 90%;
+  width: 100%;
+  padding-right: 50px;
+  margin-top: 10px;
+}
+.heading {
+  text-align: center;
+  height: 100px;
+  justify-content: center;
+}
+
+.heading-background {
+  background-color:yellow;
+  opacity: 0.5; /* Reduced opacity to make it transparent */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+}
+
+
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; /* Ensure video stays in the background */
+}
+
+.card-container {
+  display: flex;
+  margin-right:70px;
+  gap:10px;
+  justify-content: center;
+  margin-top:100px;
+}
+
+.cardss {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  font-size: 18px;
+}
+
+
+
+.creative-heading {
+  font-size: 55px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #1813134d; /* Reduced text shadow effect */
+  background: linear-gradient(45deg,red,red); /* Orangish-red gradient background */
+  -webkit-background-clip: text; /* Clip the background to the text */
+-webkit-text-fill-color: transparent; /* Transparent text color */
+display: inline-block; /* Ensure gradient applies properly */
+border-radius: 10px; /* Rounded corners */
+animation: slideIn 1s ease-out; /* Slide-in animation */
+font-family: ui-rounded;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Button Styles */
+.top-right-button {
+position: fixed;
+top:20px;
+right: 10px;
+padding: 10px 20px;
+background-color:orangered; /* Reddish-orange background color */
+color:black; /* White text color */
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold; /* Make the text bold */
+cursor: pointer;
+transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.click{
+padding-top:10px;
+top:20px;
+right: 10px;
+padding: 10px 20px;
+background-color:orangered; /* Reddish-orange background color */
+color:black; 
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+}
+
+button{
+margin:10px;
+}
+
+.top-right-button:hover {
+color:aliceblue
+}
+
+/* Gradient Effect */
+.top-right-button::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0; /* Initially hidden */
+transition: opacity 0.3s ease; /* Smooth transition */
+border-radius: 5px;
+}
+
+.top-right-button:hover::before {
+opacity: 1; /* Show the gradient on hover */
+}
+
+a.youtube, a.instagram, a.facebook, a.twitter,a.home,a.dsp {
+text-decoration: none; /* Remove underline */
+font-size: 30px; /* Size of the icons */
+transition: color 0.3s ease; /* Smooth transition for color change */
+margin: 0 10px; /* Space between each icon */
+}
+
+/* Hover effects for each social media link */
+a.youtube{
+color: #FF0000; /* Red for YouTube */
+}
+a.dsp{
+color:goldenrod;
+}
+
+a.instagram{
+color: #E4405F; /* Pinkish color for Instagram */
+}
+
+a.facebook{
+color: #3b5998; /* Blue for Facebook */
+}
+
+a.twitter{
+color: #1DA1F2; /* Light blue for Twitter */
+}
+a.home{
+color:aqua;
+}
+
+.social{
+position: relative;
+display: inline-block;
+}
+
+.social .hover-text {
+visibility: hidden;
+width: 300px;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+text-align: center;
+border-radius: 5px;
+padding: 5px 10px;
+position: absolute;
+z-index: 1;
+top: 125%; /* Position below the icon */
+left: 50%;
+transform: translateX(-50%);
+opacity: 0;
+transition: opacity 0.3s, visibility 0.3s;
+}
+
+.social:hover .hover-text {
+visibility: visible;
+opacity: 1;
+}
+
+
+
+/* Additional optional styling */
+a i {
+display: inline-block; /* Ensure icons align properly */
+vertical-align: middle; /* Align icons vertically in the middle */
+}
+
+.blinking {
+font-size: 30px;
+animation: blinker 1s linear infinite;
+color:darkblue; /* You can change the color as per your preference */
+}
+
+@keyframes blinker {
+50% {
+  opacity: 0;
+}
+}

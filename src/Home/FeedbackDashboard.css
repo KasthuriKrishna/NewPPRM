@@ -1,0 +1,106 @@
+.dashboard-container {
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665_640.jpg');
+  background-size: cover;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.main-heading {
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 45%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+.chart-container {
+  height: 400px;
+}
+
+.bar-chart {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.bar-chart-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bar-label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.bar-value {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.feedback-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.month-dropdown {
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.feedback-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.feedback-heading {
+  background-color: yellowgreen;
+  padding: 10px;
+  color: white;
+}
+
+.feedback-item {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.feedback-item h3 {
+  margin: 0 0 10px;
+  color: #ff4500;
+}
+
+.feedback-item p {
+  margin: 0;
+  color: #333;
+}
