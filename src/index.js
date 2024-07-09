@@ -36,7 +36,6 @@ import Armour from './SI/Armour';
 import Fileupload from './SI/Fileupload';
 import FeedbackDashboard from './Home/FeedbackDashboard';
 import FeedbackForm from './Home/Feedback';
-import Chatbox from './Chatbox';
 import SampleHome from './SampleHome'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
