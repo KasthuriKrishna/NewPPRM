@@ -96,12 +96,12 @@ function SignInPage() {
         <h2><FormattedMessage id="signInTitle" /></h2>
         <div className="signin-input">
           <label htmlFor="username"><FormattedMessage id="usernameLabel" /></label>
-          <label>*ACP - ACP Dashboard <br/> *PI - Inspector Dashboard</label>
+          <label>*Use ACP for ACP Dashboard <br/>*Use for PI for Inspector Dashboard</label>
           <input id="username" type="text" value={username} onChange={handleUsernameChange} />
         </div>
         <div className="signin-input">
           <label htmlFor="password"><FormattedMessage id="passwordLabel" /></label>
-          <label>Use : xxx</label>
+          <label>*Use : xxx</label>
           <input id="password" type="password" value={password} onChange={handlePasswordChange} />
         </div>
         {error && <p className="error-message">{error}</p>}

@@ -5,6 +5,13 @@ body, html, #root, .give {
   padding-right: 50px;
   margin-top: 10px;
 }
+.give {
+  background-image: url(https://e7.pngegg.com/pngimages/764/786/png-clipart-government-of-karnataka-karnataka-police-belgaum-government-of-india-others-police-officer-logo-thumbnail.png);
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+position: relative;
+  }
 .heading {
   text-align: center;
   height: 100px;

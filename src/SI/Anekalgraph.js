@@ -8,7 +8,7 @@ export default function PieActiveArc() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://ticklesksp.c1.is/Anekal.php'); // Assuming the JSON file is named data.json
+        const response = await fetch('https://policedashboard.000webhostapp.com/Anekal.php'); // Assuming the JSON file is named data.json
         const jsonData = await response.json();
         // Access query_2 array from JSON response
         const query2Data = jsonData.query_2;

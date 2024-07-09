@@ -99,7 +99,7 @@ const steps = [
   <Segment floated="right">
   <ThemeProvider theme={theme}>
                 <ChatBot
-                    headerTitle="GeekBot"
+                    headerTitle="SupportBot"
                     steps={steps}
                     {...config}
  

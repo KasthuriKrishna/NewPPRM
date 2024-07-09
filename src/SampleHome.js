@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './SampleHome.css';
-import videoBg from './kspback.mp4'; 
+import './SampleHome.css'; 
 import FeedbackForm from './Home/Feedback';
 import { useNavigate } from 'react-router-dom';
 
@@ -25,11 +24,6 @@ function SampleHome() {
   };
   return (
     <div className="give">
-      <video autoPlay loop muted id="video-background">
-        <source src={videoBg} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-
       
       <button className="click" onClick={handledsp}>View dsp</button>
       

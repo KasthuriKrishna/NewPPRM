@@ -160,44 +160,45 @@ const [file, setFile] = useState(null);
   return (
     <div>
     <h2>ADD NEW FIR</h2>
+    <h4>Sample input values are provided</h4>
     <div style={{marginLeft:"1300px",marginBottom:"20px"}}>
     <button onClick={handleback} style={{width:"100px",height:"50px"}}><h2>Back</h2></button>
     </div>
     <form className="form-container" onSubmit={handleSubmit}>
     <div className="form-field">
-    <label htmlFor="District_Name">District Name:</label>
+    <label htmlFor="District_Name">District Name:(Bengaluru)</label>
     <input type="text" id="District_Name" name="District_Name" value={formData.District_Name} onChange={handleChange} />
   </div>
   <div className="form-field">
-    <label htmlFor="UnitName">Unit Name:</label>
+    <label htmlFor="UnitName">Unit Name:(Anekal PS)</label>
     <input type="text" id="UnitName" name="UnitName" value={formData.UnitName} onChange={handleChange} />
   </div>
   <div className="form-field">
-  <label htmlFor="FIRNo">FIR No:</label>
+  <label htmlFor="FIRNo">FIR No:(0102/2024)</label>
   <input type="text" id="FIRNo" name="FIRNo" value={formData.FIRNo} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="RI">RI:</label>
+  <label htmlFor="RI">RI:(2)</label>
   <input type="text" id="RI" name="RI" value={formData.RI} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Year">Year:</label>
+  <label htmlFor="Year">Year:(2024)</label>
   <input type="text" id="Year" name="Year" value={formData.Year} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Month">Month:</label>
+  <label htmlFor="Month">Month:(10)</label>
   <input type="text" id="Month" name="Month" value={formData.Month} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Offence_From_Date">Offence From Date:</label>
+  <label htmlFor="Offence_From_Date">Offence From Date:(dd-mm-yyyy)</label>
   <input type="text" id="Offence_From_Date" name="Offence_From_Date" value={formData.Offence_From_Date} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Offence_To_Date">Offence To Date:</label>
+  <label htmlFor="Offence_To_Date">Offence To Date:(dd-mm-yyyy)</label>
   <input type="text" id="Offence_To_Date" name="Offence_To_Date" value={formData.Offence_To_Date} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="FIR_Reg_DateTime">FIR Reg DateTime:</label>
+  <label htmlFor="FIR_Reg_DateTime">FIR Reg DateTime:(12:00)</label>
   <input type="text" id="FIR_Reg_DateTime" name="FIR_Reg_DateTime" value={formData.FIR_Reg_DateTime} onChange={handleChange} />
 </div>
 <div className="form-field">
@@ -211,127 +212,127 @@ const [file, setFile] = useState(null);
     />
   </div>
 <div className="form-field">
-  <label htmlFor="FIR_Type">FIR Type:</label>
+  <label htmlFor="FIR_Type">FIR Type:(Henious/Non Henious)</label>
   <input type="text" id="FIR_Type" name="FIR_Type" value={formData.FIR_Type} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="FIR_Stage">FIR Stage:</label>
+  <label htmlFor="FIR_Stage">FIR Stage:(Traced,Un Traced..)</label>
   <input type="text" id="FIR_Stage" name="FIR_Stage" value={formData.FIR_Stage} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Complaint_Mode">Complaint Mode:</label>
+  <label htmlFor="Complaint_Mode">Complaint Mode:(Written...)</label>
   <input type="text" id="Complaint_Mode" name="Complaint_Mode" value={formData.Complaint_Mode} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="CrimeGroup_Name">CrimeGroup Name:</label>
+  <label htmlFor="CrimeGroup_Name">CrimeGroup Name:(MURDER,THEFT...(*uppercase))</label>
   <input type="text" id="CrimeGroup_Name" name="CrimeGroup_Name" value={formData.CrimeGroup_Name} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="CrimeHead_Name">CrimeHead Name:</label>
+  <label htmlFor="CrimeHead_Name">CrimeHead Name:(xxx..)</label>
   <input type="text" id="CrimeHead_Name" name="CrimeHead_Name" value={formData.CrimeHead_Name} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Latitude">Latitude:</label>
+  <label htmlFor="Latitude">Latitude:(20)</label>
   <input type="text" id="Latitude" name="Latitude" value={formData.Latitude} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Longitude">Longitude:</label>
+  <label htmlFor="Longitude">Longitude:(20)</label>
   <input type="text" id="Longitude" name="Longitude" value={formData.Longitude} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="ActSection">Act Section:</label>
+  <label htmlFor="ActSection">Act Section:(IPC 1860 U/s: 00MP )</label>
   <input type="text" id="ActSection" name="ActSection" value={formData.ActSection} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="IOName">IO Name:</label>
+  <label htmlFor="IOName">IO Name:(name)</label>
   <input type="text" id="IOName" name="IOName" value={formData.IOName} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="KGID">KGID:</label>
+  <label htmlFor="KGID">KGID:(2282203)</label>
   <input type="text" id="KGID" name="KGID" value={formData.KGID} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="IOAssigned_Date">IO Assigned Date:</label>
+  <label htmlFor="IOAssigned_Date">IO Assigned Date:(dd/mm/yyyy)</label>
   <input type="text" id="IOAssigned_Date" name="IOAssigned_Date" value={formData.IOAssigned_Date} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Internal_IO">Internal IO:</label>
+  <label htmlFor="Internal_IO">Internal IO:(37700027)</label>
   <input type="text" id="Internal_IO" name="Internal_IO" value={formData.Internal_IO} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Place_of_Offence">Place of Offence:</label>
+  <label htmlFor="Place_of_Offence">Place of Offence:(place)</label>
   <input type="text" id="Place_of_Offence" name="Place_of_Offence" value={formData["Place of Offence"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Distance_from_PS">Distance from PS:</label>
+  <label htmlFor="Distance_from_PS">Distance from PS:(4 km)</label>
   <input type="text" id="Distance_from_PS" name="Distance_from_PS" value={formData["Distance from PS"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Beat_Name">Beat Name:</label>
+  <label htmlFor="Beat_Name">Beat Name:(AKL TOWN BEAT 2 & 3)</label>
   <input type="text" id="Beat_Name" name="Beat_Name" value={formData.Beat_Name} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Village_Area_Name">Village Area Name:</label>
+  <label htmlFor="Village_Area_Name">Village Area Name:(area)</label>
   <input type="text" id="Village_Area_Name" name="Village_Area_Name" value={formData.Village_Area_Name} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Male">Male:</label>
+  <label htmlFor="Male">Male:(1)</label>
   <input type="text" id="Male" name="Male" value={formData.Male} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Female">Female:</label>
+  <label htmlFor="Female">Female:(2)</label>
   <input type="text" id="Female" name="Female" value={formData.Female} onChange={handleChange} />
 </div>
 <div className="form-field">
-  <label htmlFor="Boy">Boy:</label>
+  <label htmlFor="Boy">Boy:(1)</label>
   <input type="text" id="Boy" name="Boy" value={formData.Boy} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Girl">Girl:</label>
+<label htmlFor="Girl">Girl:(1)</label>
 <input type="text" id="Girl" name="Girl" value={formData.Girl} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Age_0">Age 0:</label>
+<label htmlFor="Age_0">Age:(20)</label>
 <input type="text" id="Age_0" name="Age_0" value={formData["Age 0"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="VICTIM_COUNT">VICTIM COUNT:</label>
+<label htmlFor="VICTIM_COUNT">VICTIM COUNT:(2)</label>
 <input type="text" id="VICTIM_COUNT" name="VICTIM_COUNT" value={formData["VICTIM COUNT"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Accused_Count">Accused Count:</label>
+<label htmlFor="Accused_Count">Accused Count:(2)</label>
 <input type="text" id="Accused_Count" name="Accused_Count" value={formData.Accused_Count} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Arrested_Male">Arrested Male:</label>
+<label htmlFor="Arrested_Male">Arrested Male:(1)</label>
 <input type="text" id="Arrested_Male" name="Arrested_Male" value={formData["Arrested Male"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Arrested_Female">Arrested Female:</label>
+<label htmlFor="Arrested_Female">Arrested Female:(1)</label>
 <input type="text" id="Arrested_Female" name="Arrested_Female" value={formData["Arrested Female"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Arrested_Count_No">Arrested Count No:</label>
+<label htmlFor="Arrested_Count_No">Arrested Count No:(2)</label>
 <input type="text" id="Arrested_Count_No" name="Arrested_Count_No" value={formData["Arrested_Count_No"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Accused_ChargeSheeted_Count">Accused ChargeSheeted Count:</label>
+<label htmlFor="Accused_ChargeSheeted_Count">Accused ChargeSheeted Count:(2)</label>
 <input type="text" id="Accused_ChargeSheeted_Count" name="Accused_ChargeSheeted_Count" value={formData["Accused ChargeSheeted_Count"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Conviction_Count">Conviction Count:</label>
+<label htmlFor="Conviction_Count">Conviction Count:(1)</label>
 <input type="text" id="Conviction_Count" name="Conviction_Count" value={formData["Conviction_Count"]} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="FIR_ID">FIR ID:</label>
+<label htmlFor="FIR_ID">FIR ID:(2016000007)</label>
 <input type="text" id="FIR_ID" name="FIR_ID" value={formData.FIR_ID} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Unit_ID">Unit ID:</label>
+<label htmlFor="Unit_ID">Unit ID:(209)</label>
 <input type="text" id="Unit_ID" name="Unit_ID" value={formData.Unit_ID} onChange={handleChange} />
 </div>
 <div className="form-field">
-<label htmlFor="Crime_No">Crime No:</label>
+<label htmlFor="Crime_No">Crime No:(1222)</label>
 <input type="text" id="Crime_No" name="Crime_No" value={formData.Crime_No} onChange={handleChange} />
 </div>
 <div className="form-field">

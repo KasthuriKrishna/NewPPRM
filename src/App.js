@@ -35,7 +35,7 @@ function App() {
 
   return (
     <IntlProvider locale={locale} messages={messages}>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <MessageProvider>
           <MessageProvider2>
             

@@ -10,7 +10,7 @@ const StackedBarChart = () => {
 
   const fetchDataFromAPI = () => {
     // Fetch data from the API
-    fetch('http://ticklesksp.c1.is/Anekal.php')
+    fetch('https://policedashboard.000webhostapp.com/Anekal.php')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
