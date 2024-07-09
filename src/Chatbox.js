@@ -1,7 +1,7 @@
 //npm install react-simple-chatbot
 //npm install semantic-ui-react
 
-import React from 'react'
+/*import React from 'react'
 import ChatBot from 'react-simple-chatbot';
 import {Segment} from 'semantic-ui-react';
 import { ThemeProvider } from 'styled-components';
@@ -110,4 +110,4 @@ const steps = [
   );
 }
 
-export default Chatbox;
+export default Chatbox;*/
